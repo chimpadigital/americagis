@@ -410,7 +410,7 @@ small, .font_small { font-size: 0.667em; }
 
 .side-nav-showing .titlebar, .side-nav-showing #content, .side-nav-showing #wrap > .main-header, .side-nav-showing .main-footer { -webkit-transform: translateX(375px); transform: translateX(375px); }
 
-.header-module { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative;width: 18%; }
+.header-module { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative;width: auto; }
 
 .header-module ~ .header-module { margin-left: 25px; }
 

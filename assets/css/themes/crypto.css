@@ -176,7 +176,7 @@ h6 {
   transition: background .3s ease;
 }
 .circulos{position: relative; transition: all .4s ease; text-align: center;}
-.circulos p{transition: all .4s ease;    position: relative;}
+.circulos p{transition: all .4s ease;position: relative;text-align: left;}
 .circulos:hover .circulo1{transform: translate(51px, -1px);}
 .circulos:hover .circulo2{transform: translate(40px, -22px);}
 .circulos:hover p {transform: translateY(-12px);}
@@ -272,7 +272,7 @@ ul.portfolio li::before{
   font-size: 20px;
   overflow: hidden;
   position: relative;
-  color: #212121;
+  color: #00abf3;
   border: 0px solid #212121;
   background: white;
 }
