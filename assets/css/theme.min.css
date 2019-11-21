@@ -1039,7 +1039,7 @@ body.archive.woocommerce #content ~ .lqd-main-footer-default { margin-top: 0; }
 
 .btn > span, .btn strong, .btn i { -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); transition: -webkit-transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); transition: transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); transition: transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875), -webkit-transform 0.3s cubic-bezier(0.22, 0.665, 0.34, 0.875); }
 
-.btn > span { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding: 1.15em 2.1em; border-radius: inherit; border-color: inherit; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.btn > span { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding: 0.5em 1.1em; border-radius: inherit; border-color: inherit; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .btn.text-uppercase { letter-spacing: .1em; }
 
@@ -1312,7 +1312,7 @@ body.archive.woocommerce #content ~ .lqd-main-footer-default { margin-top: 0; }
 
 .btn-white.btn-bordered:hover { border-color: #fff; background-color: #fff; color: #000; }
 
-.btn-white.btn-solid { border-color: #fff; background-color: #fff; color: #fff; }
+.btn-white.btn-solid { border-color: #fff; background-color: #fff; color: #fff; font-size: 22px;text-transform: uppercase;}
 
 .btn-white.btn-underlined:before { background-color: rgba(255, 255, 255, 0.75); }
 

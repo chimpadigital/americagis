@@ -50,7 +50,7 @@ if($_POST)
 		$output = json_encode(array('type'=>'error', 'text' => 'No se pudo enviar el mensaje. Revise los campos e intente nuevamente.'));
 		die($output);
 	}else{
-		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .' Gracias por su mensaje'));
+		$output = json_encode(array('type'=>'message', 'text' => 'Hola '.$user_name .' Gracias por su mensaje'));
 		die($output);
 	}
 }
