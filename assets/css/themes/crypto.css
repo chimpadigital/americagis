@@ -215,5 +215,106 @@ ul.portfolio li::before{
   top: 6px;
 }
 
+.desarrollo-mobile{
+  margin-top: -80px;
+}
+.portfolio-mobile{
+  margin-top: -80px;
+}
+
 .iconbox span{font-weight: 700;color: #081E7A;}
 .mobile-logo-default{width: 200px;}
+
+.effect {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  background-color: transparent;
+}
+.effect h2 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.effect:nth-child(2) {
+  margin-top: 50px;
+}
+.effect:nth-child(2n+1) {
+  background-color: transparent;
+}
+.effect:nth-child(2n+1) h2 {
+  color: #212121;
+}
+.effect:nth-child(2n) a {
+  color: #fff;
+  border-color: #fff;
+}
+.effect .buttons {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+/* styles for a common effect !!!YOU NEED THEM */
+.effect {
+  /*display: flex; !!!uncomment this line !!!*/
+}
+.effect a {
+  text-decoration: none !important;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 9px;
+  font-size: 20px;
+  overflow: hidden;
+  position: relative;
+  color: #212121;
+  border: 0px solid #212121;
+  background: white;
+}
+.effect a i {
+  position: relative;
+  z-index: 3;
+}
+.effect a:last-child {
+  margin-right: 0px;
+}
+.effect a:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.effect a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* varrius effect */
+.effect.varrius a {
+  transition: all 0.2s linear 0s;
+}
+.effect.varrius a:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: -110%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  background-color: #00187d;
+  border-radius: 50%;
+}
+.effect.varrius a:hover {
+  color: #fff;
+}
+.effect.varrius a:hover:after {
+  top: 0%;
+  transition: all 0.2s linear 0s;
+}
