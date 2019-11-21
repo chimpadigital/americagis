@@ -4,14 +4,14 @@ if($_POST)
 	$to_email   	= "sdesigncba@gmail.com"; //Recipient email, Replace with own email here
 	
 	//check if its an ajax request, exit if not
-	if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+	// if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
 		
-		$output = json_encode(array( //create JSON data
-			'type'=>'error', 
-			'text' => 'Sorry Request must be Ajax POST'
-		));
-		die($output); //exit script outputting json data
-	} 
+	// 	$output = json_encode(array( //create JSON data
+	// 		'type'=>'error', 
+	// 		'text' => 'Sorry Request must be Ajax POST'
+	// 	));
+	// 	die($output); //exit script outputting json data
+	// } 
 	
 	//Sanitize input data using PHP filter_var().
 	$user_name		= filter_var($_POST["name"], FILTER_SANITIZE_STRING);
