@@ -1499,7 +1499,7 @@ body.archive.woocommerce #content ~ .lqd-main-footer-default { margin-top: 0; }
   100% { opacity: 0; } }
 
 /* Icon Box */
-.iconbox { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 2em; position: relative; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; -webkit-transition: all 0.3s ease, -webkit-box-shadow 0.3s ease; transition: all 0.3s ease, -webkit-box-shadow 0.3s ease; transition: box-shadow 0.3s ease, background 0.3s ease,transform .4s ease; transition: box-shadow 0.3s ease, background 0.3s ease, -webkit-box-shadow 0.3s ease,transform .4s ease; }
+.iconbox { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 0.8em; position: relative; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; -webkit-transition: all 0.3s ease, -webkit-box-shadow 0.3s ease; transition: all 0.3s ease, -webkit-box-shadow 0.3s ease; transition: box-shadow 0.3s ease, background 0.3s ease,transform .4s ease; transition: box-shadow 0.3s ease, background 0.3s ease, -webkit-box-shadow 0.3s ease,transform .4s ease; }
 
 .iconbox .iconbox-icon-container, .iconbox .contents, .iconbox > h3 { position: relative; z-index: 2; }
 
@@ -1527,7 +1527,7 @@ body.archive.woocommerce #content ~ .lqd-main-footer-default { margin-top: 0; }
 
 .iconbox .iconbox-fill-el, .iconbox .iconbox-icon-hover-bg { display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; border-radius: inherit; -webkit-transition: opacity 0.3s; transition: opacity 0.3s; opacity: 0; background-size: cover; }
 
-.iconbox p { margin-bottom: 0;line-height: 1.3em;}
+.iconbox p { margin-bottom: 5px;line-height: 1em;}
 
 .iconbox .btn { margin-top: 1.5em; margin-bottom: 0.5em; }
 
@@ -1629,7 +1629,7 @@ body.archive.woocommerce #content ~ .lqd-main-footer-default { margin-top: 0; }
 [data-shape-border="3"] .iconbox-icon-container { border-width: 3px; }
 
 /* Filling Styles */
-.iconbox-shadow, .iconbox-shadow-hover, .iconbox-bordered, .iconbox-filled { padding: 25px 10%; background-color: transparent; }
+.iconbox-shadow, .iconbox-shadow-hover, .iconbox-bordered, .iconbox-filled { padding: 8px 10%; background-color: transparent; }
 
 .iconbox-shadow.iconbox-inline, .iconbox-shadow.iconbox-side, .iconbox-shadow-hover.iconbox-inline, .iconbox-shadow-hover.iconbox-side, .iconbox-bordered.iconbox-inline, .iconbox-bordered.iconbox-side, .iconbox-filled.iconbox-inline, .iconbox-filled.iconbox-side { padding: 45px 5%; }
 
@@ -1679,8 +1679,8 @@ body.archive.woocommerce #content ~ .lqd-main-footer-default { margin-top: 0; }
 
 .iconbox-filled-hover.iconbox-light-onhover:hover .iconbox-icon-wrap {
   background: #081E7A;
-  width: 150px;
-  height: 150px;
+  width: 105px;
+  height: 105px;
   border-radius: 500px;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.50);
   margin-bottom: 25px;
@@ -1786,7 +1786,7 @@ body.archive.woocommerce #content ~ .lqd-main-footer-default { margin-top: 0; }
 
 .iconbox-xl .iconbox-icon-container { font-size: 50px; }
 
-.iconbox-xl .iconbox-icon-container img[src$=".svg"], .iconbox-xl .iconbox-icon-container object, .iconbox-xl .iconbox-icon-container > svg { width: 50px; }
+.iconbox-xl .iconbox-icon-container img[src$=".svg"], .iconbox-xl .iconbox-icon-container object, .iconbox-xl .iconbox-icon-container > svg { width: 35px; }
 
 .iconbox-icon-ripple .iconbox-icon-container:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; border-radius: inherit; border: 1px solid var(--color-primary); -webkit-animation: iconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite; animation: iconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite; }
 
